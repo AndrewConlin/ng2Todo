@@ -1,0 +1,9 @@
+<h3>Register as a User</h3>
+
+<form #registerForm="ngForm" (ngSubmit)="register(registerForm)">
+    Email: <input type="text" name="email" value="user.email" ngModel/>
+    Password: <input type="text" name="pass1" value="user.password1" ngModel/>
+    Password: <input type="text" name="pass2" value="user.password2" ngModel/>
+    
+    <input type="submit">
+</form>

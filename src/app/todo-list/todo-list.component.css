@@ -1,0 +1,20 @@
+form {
+	margin-bottom: 20px;
+}
+.red {
+	background : #ff8585;
+}
+
+.yellow {
+	background : #fdf882;
+	color : #d3d3d3;
+}
+
+.green {
+	background : #5cb85c;
+}
+
+.strikethrough {
+	color : #808080;
+	text-decoration : line-through;	
+}
